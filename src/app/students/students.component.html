@@ -1,0 +1,18 @@
+<div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="start" fxLayoutGap="1%">
+    <mat-card class="course-card" *ngFor="let student of students">
+        <mat-card-title >{{student.name}}</mat-card-title>
+        <mat-card-subtitle >{{student.country}}</mat-card-subtitle>
+        <mat-divider></mat-divider>
+        <mat-card-content class="cardcontent">
+            <h3>Phone number:</h3>
+            <p>{{student.phoneNumber}}</p>
+            <mat-divider></mat-divider>
+            <div class="dividerCard">
+                <h3>E-mail:</h3>
+                <p>{{student.email}}</p>
+            </div>
+        
+        </mat-card-content>
+
+    </mat-card>
+</div>

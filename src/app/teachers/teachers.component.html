@@ -1,0 +1,18 @@
+<div class="expansionPanel" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="space-between start" fxLayoutGap="1%">
+<mat-expansion-panel *ngFor="let teacher of teachers" >
+  <mat-expansion-panel-header class="expansionPanel" >
+  <mat-icon>account_circle</mat-icon>
+    <mat-panel-title>
+     {{teacher.name}}
+    </mat-panel-title>
+    <mat-panel-description>
+    {{teacher.country}}
+    </mat-panel-description>
+  </mat-expansion-panel-header>
+
+  <h3>Biography</h3>
+  
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur labore qui, saepe fugit minus quibusdam! Molestias error repellendus corporis voluptates!</p>
+
+</mat-expansion-panel>
+</div>

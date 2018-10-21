@@ -1,0 +1,25 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+}
+.container{
+  margin: 20px;
+}
+
+#routerLink1 :hover{
+  background-color: #673AB7;
+  color: white;
+}
+
+#routerLink1 :focus{
+  background-color: #FFC107;
+  color: white;
+}

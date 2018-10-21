@@ -1,0 +1,15 @@
+
+<div fxLayout="row" fxLayout.xs="column" fxFlexAlign="start" fxLayoutGap="10px">
+    <mat-card class="course-card" *ngFor="let course of courses">
+        <mat-card-title>{{course.name}}</mat-card-title>
+        <mat-card-subtitle>{{course.location}}</mat-card-subtitle>
+        <mat-divider></mat-divider>
+          <mat-card-content class="cardContent">
+            <h3>Course description</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente quasi consequuntur commodi sequi non tempore aliquam id nobis. Dolore, possimus.</p>
+          </mat-card-content>
+      </mat-card>
+  
+</div>
+
+

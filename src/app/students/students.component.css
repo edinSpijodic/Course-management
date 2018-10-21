@@ -1,0 +1,17 @@
+.container{
+    flex-wrap: wrap;
+}
+.cardcontent{
+    padding-top: 10px;
+}
+.dividerCard {
+    padding-top: 5px;
+}
+
+.container > .course-card
+{
+  margin:10px;
+}
+.course-card{
+    width:180px;
+}
